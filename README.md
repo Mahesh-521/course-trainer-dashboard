@@ -1,12 +1,48 @@
-# React + Vite
+Course Trainer Todo List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 Project Overview
 
-Currently, two official plugins are available:
+This is a simple React-based Course Trainer Todo List that allows users to add, edit, and delete course-trainer details. The project demonstrates the use of React state management, event handling, and component-based architecture.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
 
-## Expanding the ESLint configuration
+Add new courses and trainers.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Edit existing course-trainer details.
+
+Delete unwanted records.
+
+Responsive UI with a clean design.
+
+Unique ID generation using uuid.
+
+🛠 Tech Stack
+
+Frontend: React.js
+
+State Management: React useState
+
+Unique ID Generation: uuid
+
+Styling: Normal CSS
+
+📂 Project Structure
+├── src
+│   ├── components
+│   │   ├── FormContainer.js  # Form component
+│   │   ├── TodoList.js       # Table display component
+│   ├── App.js                # Main application
+│   ├── index.js              # React entry point
+│   ├── styles.css            # Project styles
+├── package.json
+├── README.md
+
+🖥️ Usage
+
+Enter Course & Trainer Details in the form.
+
+Click "Submit" to add it to the list.
+
+Click "Edit" to modify an existing entry.
+
+Click "Delete" to remove an entry.
