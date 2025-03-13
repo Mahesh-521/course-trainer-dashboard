@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e9ecef;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+#mainContainer{
+    background-color: white;
+    padding: 25px;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+.formContainer h1{
+    text-align: center;
+    color: red;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.formContainer div{
+    margin-bottom: 15px;
+}
+.formContainer label{
+    font-weight: 700;
+    font-size: 20px;
+}
+.formContainer input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 7px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border 0.3s;
+}
+.formContainer input:focus {
+    border: 1px solid blue;
+    box-shadow: 0px 0px 5px rgba(0, 0, 255, 0.3);
+}
+.formContainer button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.formContainer button,
+#delete-btn,
+#edit-btn {
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+#submitBtn {
+    display: flex;
+    justify-content: center;
+}
+.formContainer button {
+    background-color: blue;
+}
+.formContainer button:hover {
+    background-color: darkblue;
+}
+#delete-btn {
+    background-color: #dc3545;
+    margin: 5px;
+}
+#delete-btn:hover {
+    background-color: #c82333;
+}
+#edit-btn {
+    background-color: #28a745;
+}
+#edit-btn:hover {
+    background-color: #218838;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+thead {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
